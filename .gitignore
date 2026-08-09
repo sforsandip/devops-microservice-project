@@ -1,0 +1,9 @@
+target/
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+*.log
+.env
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
