@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "devops-microservice-project Docs": {
+      "type": "sse",
+      "url": "https://gitmcp.io/sforsandip/devops-microservice-project"
+    }
+  }
+}

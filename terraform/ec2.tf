@@ -24,7 +24,7 @@ resource "aws_instance" "devops" {
     aws_security_group.ec2.id
   ]
 
-  key_name = var.key_name
+  key_name = "istudio"
 
   associate_public_ip_address = true
 

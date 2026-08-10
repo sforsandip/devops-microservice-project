@@ -1,19 +1,8 @@
-terraform {
-  required_version = ">= 1.6.0"
-
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 6.0"
-    }
-  }
-}
-
 module "eks" {
   source  = "terraform-aws-modules/eks/aws"
   version = "~> 21.0"
 
-  name               = "${var.project_name}-eks"
+  name               = "devops-eks"
   kubernetes_version = var.eks_cluster_version
 
   endpoint_public_access = true
